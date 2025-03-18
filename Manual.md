@@ -146,3 +146,90 @@ console.log(x);      // Output : 20
 x = 30;
 console.log(x);      // Output : Error!
 ```
+
+# JavaScript Operators
+
+## Overview
+JavaScript operators are symbols used to perform operations on values and variables. These operators help in manipulating data, making decisions, and implementing logic in JavaScript programs.
+
+## Types of Operators
+
+1. **Arithmetic Operators** - Perform mathematical operations.
+2. **Assignment Operators** - Assign values to variables.
+3. **Comparison Operators** - Compare values and return boolean results.
+4. **Logical Operators** - Used for boolean logic operations.
+5. **Bitwise Operators** - Work on binary representations of numbers.
+6. **Ternary Operator** - A shorthand for conditional expressions.
+
+## Arithmetic Operators
+
+| Operator | Description | Example |
+|----------|------------|---------|
+| `+` | Addition | `5 + 2 = 7` |
+| `-` | Subtraction | `5 - 2 = 3` |
+| `*` | Multiplication | `5 * 2 = 10` |
+| `/` | Division | `5 / 2 = 2.5` |
+| `%` | Modulus | `5 % 2 = 1` |
+| `**` | Exponentiation | `5 ** 2 = 25` |
+| `++` | Increment | `let a = 5; a++ = 6` |
+| `--` | Decrement | `let a = 5; a-- = 4` |
+
+## Assignment Operators
+
+| Operator | Description | Example |
+|----------|------------|---------|
+| `=` | Assign | `x = 10` |
+| `+=` | Add and assign | `x += 5` (same as `x = x + 5`) |
+| `-=` | Subtract and assign | `x -= 5` |
+| `*=` | Multiply and assign | `x *= 5` |
+| `/=` | Divide and assign | `x /= 5` |
+| `%=` | Modulus and assign | `x %= 5` |
+| `**=` | Exponentiate and assign | `x **= 2` |
+
+## Comparison Operators
+
+| Operator | Description | Example |
+|----------|------------|---------|
+| `==` | Equal to | `5 == "5" // true` |
+| `===` | Strict equal | `5 === "5" // false` |
+| `!=` | Not equal | `5 != "5" // false` |
+| `!==` | Strict not equal | `5 !== "5" // true` |
+| `>` | Greater than | `5 > 3 // true` |
+| `<` | Less than | `5 < 3 // false` |
+| `>=` | Greater than or equal to | `5 >= 5 // true` |
+| `<=` | Less than or equal to | `5 <= 4 // false` |
+
+## Logical Operators
+
+| Operator | Description | Example |
+|----------|------------|---------|
+| `&&` | Logical AND | `true && false // false` |
+| `||` | Logical OR | `true || false // true` |
+| `!` | Logical NOT | `!true // false` |
+
+## Bitwise Operators
+
+| Operator | Description | Example |
+|----------|------------|---------|
+| `&` | Bitwise AND | `5 & 3` |
+| `|` | Bitwise OR | `5 | 3` |
+| `^` | Bitwise XOR | `5 ^ 3` |
+| `~` | Bitwise NOT | `~5` |
+| `<<` | Left shift | `5 << 1` |
+| `>>` | Right shift | `5 >> 1` |
+
+## Ternary Operator
+
+Syntax:
+```javascript
+condition ? expression1 : expression2
+```
+Example:
+```javascript
+let age = 18;
+let status = (age >= 18) ? "Adult" : "Minor";
+console.log(status); // Adult
+```
+
+## Conclusion
+This document provides an overview of JavaScript operators and their usage. Mastering these operators is crucial for writing efficient JavaScript programs.
