@@ -1,4 +1,4 @@
-# Master JavaSscript
+# Master JavaScript
 Here i Master javaScript with all concept from basic to advanced at the end I make the Project in HTML, CSS, Javascript called LeetProgress.
 
 **LeetProgress** is a beautiful, modern dashboard to visualize your LeetCode journey.  
