@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f6f7fb;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account {
+    width: 440px;
+    min-width: 260px;
+    background: #fff;
+    padding: 2rem 2rem 1.5rem 2rem;
+    border-radius: 18px;
+    color: #23272f;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.1rem;
+    margin-top: 2.5rem;
+}
+
+.account label {
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #23272f;
+    letter-spacing: 0.1px;
+}
+
+#user {
+    background: #f6f7fb;
+    color: #23272f;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    font-size: 1.08rem;
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    margin-bottom: 1rem;
+}
+
+#user:focus {
+    border: 1.5px solid #6366f1;
+    background: #f0f1fa;
+}
+
+.account button {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 8px;
+    background: #23272f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.08rem;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+}
+.account button:hover, .account button:focus {
+    background: #6366f1;
+    color: #fff;
+}
+
+.user {
+    background: #fff;
+    width: 440px;
+    min-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.8rem;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 1.1rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #f6f7fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #e5e7eb;
+}
+
+.username {
+    color: #6366f1;
+    font-size: 1.08rem;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+
+.username h2 {
+    color: #23272f;
+    font-size: 1.13rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1px;
+}
+
+.stat {
+    background: #fff;
+    width: 440px;
+    min-width: 260px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10.5rem;
+    border: 1px solid #e5e7eb;
+    padding: 1rem 1rem;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.acceptance {
+    height: 100%;
+    width: 44%;
+    background: #f6f7fb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e7eb;
+    position: relative;
+    overflow: hidden;
+}
+.acceptance h4 {
+    color: #6366f1;
+    padding-top: 5px;
+    font-size: 1.01rem;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    z-index: 1;
+    position: relative;
+}
+
+.acceptance h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #23272f;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    z-index: 1;
+    position: relative;
+}
+
+.stat2 {
+    width: 56%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.points, .reputation, .ranking {
+    width: 100%;
+    height: 32%;
+    background: #f6f7fb;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e7eb;
+    padding: 0.4rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.points h6, .reputation h6, .ranking h6 {
+    color: #23272f;
+    padding-top: 2px;
+    font-size: 0.98rem;
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
+}
+.points h2, .reputation h2, .ranking h2 {
+    color: #6366f1;
+    font-size: 1.13rem;
+    font-weight: 800;
+    z-index: 1;
+    position: relative;
+}
+
+.charts {
+    width: 440px;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+.pie-chart-container {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    padding: 1.2rem 0.7rem 0.7rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie-chart-wrapper {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+#pieChart {
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+}
+#pie-center-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 2;
+}
+#pie-center-text .main {
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: #23272f;
+    line-height: 1;
+}
+#pie-center-text .sub {
+    font-size: 1.1rem;
+    color: #6366f1;
+    font-weight: 600;
+    margin-top: 0.1em;
+}
+#pie-center-text .label {
+    font-size: 1rem;
+    color: #22c55e;
+    margin-top: 0.2em;
+    font-weight: 600;
+}
+
+.pie-legend {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 0.7rem;
+    font-size: 0.98rem;
+    color: #23272f;
+    font-weight: 500;
+}
+.pie-legend .legend-dot {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    vertical-align: middle;
+}
+.pie-legend .easy { background: #22c55e; }
+.pie-legend .medium { background: #facc15; }
+.pie-legend .hard { background: #ef4444; }
+.pie-legend .unsolved { background: #e5e7eb; border: 1px solid #cbd5e1; }
+
+.submission {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    padding: 1rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.problems {
+    width: 440px;
+    min-width: 260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 0.8rem;
+    margin: 1.5rem auto 1.1rem auto;
+}
+
+.problem-card {
+    flex: 1;
+    background: #f6f7fb;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 0.3rem;
+    min-width: 0;
+    position: relative;
+    overflow: hidden;
+}
+.problem-card h5 {
+    font-size: 0.98rem;
+    color: #6366f1;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+.problem-card .easy-solved { color: #22c55e; }
+.problem-card .medium-solved { color: #facc15; }
+.problem-card .hard-solved { color: #ef4444; }
+.problem-card .total-solved { color: #23272f; }
+.problem-card .easy-total, .problem-card .medium-total, .problem-card .hard-total, .problem-card .total-questions {
+    font-size: 0.98rem;
+    color: #6366f1;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .problems {
+        flex-direction: row;
+        gap: 0.7rem;
+        margin: 1rem auto;
+    }
+    .problem-card {
+        width: 100%;
+        min-width: 0;
+        border-radius: 8px;
+        padding: 0.7rem 0.3rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .account, .user, .stat, .charts, .problems, .submission {
+        width: 97vw;
+        min-width: unset;
+        max-width: 100vw;
+        border-radius: 10px;
+    }
+    .account {
+        margin-top: 1.2rem;
+        padding: 1.2rem 0.7rem 1rem 0.7rem;
+    }
+    .user {
+        height: auto;
+        padding: 1.1rem 0;
+        margin-bottom: 1.2rem;
+    }
+    .profile {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    .image {
+        width: 3rem;
+        height: 3rem;
+    }
+    .username h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .stat {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0.5rem;
+        gap: 0.7rem;
+    }
+    .acceptance, .stat2 {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .acceptance {
+        margin-bottom: 1rem;
+        min-height: 4.5rem;
+    }
+    .acceptance h1 {
+        font-size: 1.2rem;
+        margin-top: 0.7rem;
+    }
+    .stat2 {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 0.5rem;
+        width: 100%;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .points, .reputation, .ranking {
+        width: 33.3%;
+        margin: 0;
+        height: auto;
+        padding: 0.7rem 0.2rem;
+        border-radius: 8px;
+    }
+    .charts {
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem auto;
+    }
+    .pie-chart-container {
+        padding: 1rem 0.3rem 0.3rem 0.3rem;
+    }
+    .submission {
+        margin: 1rem auto;
+        padding: 0.7rem 0.3rem;
+    }
+}

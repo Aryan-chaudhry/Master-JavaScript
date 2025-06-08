@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetProgress Ultra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="account">
+        <label for="user">Enter Username</label>
+        <input type="text" id="user" placeholder="Enter Username">
+        <button id="fetchBtn">Submit</button>
+    </div>
+    <div class="user">
+        <div class="profile">
+            <div class="image"></div>
+            <div class="username"><h2>@User</h2></div>
+        </div>
+    </div>
+    <div class="stat">
+        <div class="acceptance">
+            <h4>Acceptance Rate</h4>
+            <h1 class="acceptance-rate">0%</h1>
+        </div>
+        <div class="stat2">
+            <div class="points">
+                <h6>Your Points</h6>
+                <h2 class="point-data">0</h2>
+            </div>
+            <div class="reputation">
+                <h6>Your Reputation</h6>
+                <h2 class="reputation-data">0</h2>
+            </div>
+            <div class="ranking">
+                <h6>Your Ranking</h6>
+                <h2 class="ranking-data">0</h2>
+            </div>
+        </div>
+    </div>
+    <div class="charts">
+        <div class="pie-chart-container">
+            <div class="pie-chart-wrapper">
+                <canvas id="pieChart" width="220" height="220"></canvas>
+                <div id="pie-center-text"></div>
+            </div>
+            <div class="pie-legend">
+                <span><span class="legend-dot easy"></span>Easy</span>
+                <span><span class="legend-dot medium"></span>Medium</span>
+                <span><span class="legend-dot hard"></span>Hard</span>
+                <span><span class="legend-dot unsolved"></span>Unsolved</span>
+            </div>
+        </div>
+        <div class="submission">
+            <canvas id="submissionChart" height="120"></canvas>
+        </div>
+    </div>
+    <div class="problems">
+        <div class="problem-card easy">
+            <h5>Easy</h5>
+            <div class="easy-solved">0</div>
+            <div class="easy-total">/0</div>
+        </div>
+        <div class="problem-card medium">
+            <h5>Medium</h5>
+            <div class="medium-solved">0</div>
+            <div class="medium-total">/0</div>
+        </div>
+        <div class="problem-card hard">
+            <h5>Hard</h5>
+            <div class="hard-solved">0</div>
+            <div class="hard-total">/0</div>
+        </div>
+        <div class="problem-card total">
+            <h5>Total Solved</h5>
+            <div class="total-solved">0</div>
+            <div class="total-questions">/0</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#atm{
+    margin-top:10%;
+    height:5    rem;
+    width:20rem;
+    border:2px solid black;
+    padding:10px;
+}
+
+#phone{
+    margin-top:5%;
+    height:35rem;
+    width:20rem;
+    border:10px solid black;
+    border-radius: 15px;
+}
+
+.msg{
+    padding:5px;
+    width:90%;
+    height:30%;
+    /* border:1px solid black; */
+    margin-left:5%;
+    margin-top:5%;
+}
