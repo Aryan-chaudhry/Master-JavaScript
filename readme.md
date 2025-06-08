@@ -37,7 +37,7 @@ Track your solved problems, see your stats, and get motivated to keep coding —
 - **CSS3** (Flexbox, Responsive)
 - **JavaScript (ES6+)**
 - [Chart.js](https://www.chartjs.org/) for beautiful charts
-- **LeetCode Public APIs** (free forever!)
+- **LeetCode Public APIs**
 
 ---
 
