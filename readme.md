@@ -1,6 +1,5 @@
-# 🚀 LeetProgress
-
-![LeetProgress Banner](https://leetprogress.netlify.app/assets/banner.png)
+# Master JavaSscript
+Here i Master javaScript with all concept from basic to advanced at at the End make the Project in HTML, CSS, Javascript.
 
 **LeetProgress** is a beautiful, modern dashboard to visualize your LeetCode journey.  
 Track your solved problems, see your stats, and get motivated to keep coding — all in a clean, responsive UI built with **HTML, CSS, and JavaScript**.
@@ -79,4 +78,4 @@ If you like LeetProgress, please consider starring the [GitHub repo](https://git
 
 ---
 
-> **Level up your LeetCode journey with LeetProgress!**
+> **The Journey of Master Javascript is very facinating**
