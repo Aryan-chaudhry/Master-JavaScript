@@ -1,6 +1,6 @@
 
 const calculate = (a,b, operation) => {
-    return operation(2,3);
+    return operation(a,b);
 }
 
 operation = ( a, b) => {
